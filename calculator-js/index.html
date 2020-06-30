@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+        <div id="calc">
+            <h1>Calculadora</h1>
+            <p>Escolha a operação desejada e realize sua conta!</p>
+
+            <input type="number" name="input01" id="input01">
+
+             <div id="oper">
+                <button id="button" onclick="soma()"> + </button>
+                <button id="button" onclick="sub()"> - </button>
+                <button id="button" onclick="multi()"> * </button>
+                <button id="button" onclick="divi()"> / </button>
+            </div>
+
+            <input type="number" name="input02" id="input02">
+
+           
+            <div id="result">
+
+            </div>
+        </div>
+
+        <p id="footer">&copy; Todos os direitos reservados</p>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: #7159C1;
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+#calc{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+    
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+#oper{
+    padding: 20px;
+}
+
+#button{
+    width: 40px;
+    height: 40px;
+}
+
+#result{
+    margin: 25px;
+}
+
+#footer{
+    color: white;
+    font-size: 12pt;
+    font-style: italic;
+    margin-top: 30px;
+}

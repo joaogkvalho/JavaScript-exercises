@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>Programa de Somar</title>
+		<meta charset="UTF-8">
+
+		<style>
+			body{
+				font: normal 13pt arial;
+				color: black;
+				background-color: #7159C1;
+			}
+
+			#box{
+				background-color: white;
+				width: 400px;
+				height: 300px;
+				padding: 15px;
+				margin: auto;
+				margin-top: 100px;
+				border-radius: 15px;
+				box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.432);
+			}
+
+			h1{
+				text-align: center;
+			}
+
+			input{
+				width: 70px;
+				height: 30px;
+				margin: 30px;
+				font-size: 20px;
+			}
+
+			div#res{
+				font-size: 23px;
+				margin: 28px;
+			}
+
+			button{
+				font: normal 13pt arial;
+				width: 70px;
+				height: 35px;
+
+			}
+
+			#footer{
+				color: white;
+				font-style: italic;
+				text-align: center;
+				margin-top: 40px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box">
+			<h1>Somando Valores</h1>
+
+			<input type="number" name="txtn1" id="txtn1"> +
+			<input type="number" name="txtn2" id="txtn2">
+			<button onclick="clicar()">
+				Somar
+			</button>
+
+			<div id="res">Resultado...</div>
+		</div>
+
+		<p id="footer">&copy; Todos os direitos reservados</p>	
+
+		<script>
+			function clicar(){
+				var txt1 = document.getElementById('txtn1')
+				var txt2 = document.getElementById('txtn2')
+
+				var n1 = Number(txt1.value)
+				var n2 = Number(txt2.value)
+
+				var soma = n1 + n2
+
+				var res = document.getElementById('res')
+
+				res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>`
+			}
+		</script>
+	</body>
+</html>
