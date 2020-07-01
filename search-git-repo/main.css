@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-color: white;
+}
+
+.app{
+    width: 300px;
+
+    padding: 40px;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: #7159c1;
+    border-radius: 24px;
+}
+
+.app-buttons{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+.input-element{ 
+    width: 200px;
+
+    padding: 14px 10px;
+
+    background: none;
+    border: 0;
+
+    border: 2px solid white;
+    border-radius: 24px;
+
+    color: white;
+
+    outline: none;
+    transition: .25s;
+}
+
+.input-element:focus{
+    width: 280px;
+}
+
+::placeholder{
+    text-align: center;
+    color: white;
+}
+
+
+.btn-element{
+    width: 130px;
+    padding: 14px 10px;
+
+    margin: 20px auto 25px;
+
+    border: 0;
+    background: none;
+
+    border: 2px solid white;
+    border-radius: 24px;
+    
+
+    color: white;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.list-element li{
+    display: flex;
+
+    font-size: 13px;
+
+    color: white;
+
+    margin-bottom: 5px;
+}
+
+.error-title{
+    color: white;
+}

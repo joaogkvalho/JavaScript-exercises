@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search your repos</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="app">
+            <ul class="list-element">
+
+            </ul>
+
+            <div class="app-buttons">
+                <input type="text" id="user" placeholder="Type a github user" class="input-element">
+                <input type="button" value="Search" onclick="searchUser()" class="btn-element">
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
